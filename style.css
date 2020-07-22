@@ -1,3 +1,9 @@
+.list-partenaires {
+    list-style-type: none;
+    text-align: center;
+    margin-top:20px;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -18,6 +24,12 @@ a:hover {
     cursor: pointer;
 }
 
+.text2{
+    font-weight: 400;
+    font-size: .9em;
+    font-style: italic;
+}
+}
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -676,10 +688,16 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 11px;
+.texte-centré {
+    text-align: center;
+    position: relative;
+    max-width: 700px;
+    font-family: protest;
+    font-weight: 700;
+    font-size: 1.8em;
+    margin: auto;
+    margin-bottom:20px;
 }
-
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -818,11 +836,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/travail_bureau.jpg");
+    background-image: url("img/travail-bureau.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/prise_de_notes.jpg");
+    background-image: url("img/prise-de-notes.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -926,7 +944,7 @@ h4 {
     .nav > li {
         margin-top: 0;
         border-bottom: 1px solid rgba(0, 0, 0, .1);
-        background: rgba(0, 0, 0, .05);
+        background: rgba(53, 248, 4, 0.05);
         text-align: left;
         padding-left: 15px;
         width: 100%;
