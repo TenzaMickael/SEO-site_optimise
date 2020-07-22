@@ -4,6 +4,17 @@
     margin-top:20px;
 }
 
+.texte-centré {
+    text-align: center;
+    position: relative;
+    max-width: 700px;
+    font-family: protest;
+    font-weight: 700;
+    font-size: 1.8em;
+    margin: auto;
+    margin-bottom:20px;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -29,7 +40,7 @@ a:hover {
     font-size: .9em;
     font-style: italic;
 }
-}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -688,16 +699,7 @@ a {
     margin: auto auto auto auto;
 }
 
-.texte-centré {
-    text-align: center;
-    position: relative;
-    max-width: 700px;
-    font-family: protest;
-    font-weight: 700;
-    font-size: 1.8em;
-    margin: auto;
-    margin-bottom:20px;
-}
+
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
