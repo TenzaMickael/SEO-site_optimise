@@ -4,6 +4,13 @@
     margin-top:20px;
 }
 
+.list-partenaires li a {
+  
+    color:black;
+}
+#bloc-8 p{
+    font-size:1.5em;
+}
 .texte-centré {
     text-align: center;
     position: relative;
@@ -674,7 +681,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -759,6 +766,7 @@ h4 {
     color: #FFFFFF!important;
 }
 
+
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -780,6 +788,7 @@ h4 {
 .bold-link {
     font-weight: 900;
     text-decoration: underline!important;
+    font-size:1.5em;
 }
 
 .bgc-white {
@@ -791,15 +800,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color:#9e674e ;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #d9ff0b!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #9e674e;
     color: #FFFFFF!important;
 }
 
