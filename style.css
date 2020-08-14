@@ -1,4 +1,11 @@
 
+.form-group label{
+    font-weight: bold;
+}
+
+.col-sm-6 p{
+    font-weight: bold;
+}
 html {
     font-family: sans-serif;
     -webkit-text-size-adjust: 100%;
